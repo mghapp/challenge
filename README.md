@@ -1,6 +1,6 @@
-# Noclist Challenge
+# NOC List Challenge
 
-This repository contains code for the [NOC list Ad Hoc Challenge][noclist]. The code is written in Javascript, and is meant to be run via [Node.js][nodejs].
+This repository contains code for the [NOC List Ad Hoc Challenge][noclist]. The code is written in Javascript, and is meant to be run via [Node.js][nodejs].
 
 ## Requirements
 

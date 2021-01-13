@@ -1,5 +1,7 @@
 #!/usr/bin/env node
 
+"use strict";
+
 let buffer = Buffer.from("");
 process.stdin.on("data", (chunk) => {
   buffer = Buffer.concat([buffer, chunk]);

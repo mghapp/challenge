@@ -1,5 +1,7 @@
 # Noclist Challenge
 
+This repository contains code for the [NOC list Ad Hoc Challenge][noclist]. The code is written in Javascript, and is meant to be run via [Node.js][nodejs].
+
 ## Requirements
 
 - Node.js >= 10
@@ -42,4 +44,6 @@ A limited integration test is provided, and can be run via `make`:
 $ make integration-test
 ```
 
+[noclist]: https://homework.adhoc.team/noclist/
+[nodejs]: https://nodejs.org/
 [jest]: https://jestjs.io/

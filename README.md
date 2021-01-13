@@ -41,3 +41,5 @@ A limited integration test is provided, and can be run via `make`:
 ```shell
 $ make integration-test
 ```
+
+[jest]: https://jestjs.io/

@@ -6,6 +6,9 @@ API_DOCKER_CONTAINER ?= badsec-api
 	stop-badsec-api \
 	unit-test
 
+help: ## Shows this help message
+	@cat $(MAKEFILE_LIST) | grep -E '^[a-zA-Z_-]+:.*?## .*$$' | awk 'BEGIN {FS = ":.*?## "}; {printf "\033[36m%-30s\033[0m %s\n", $$1, $$2}' | sort
+
 start-badsec-api: ## Starts the local BADSEC API server
 	@docker inspect --format "{{.Id}}" $(API_DOCKER_CONTAINER) 2> /dev/null || \
 	docker run --detach --rm -p 8888:8888 --name $(API_DOCKER_CONTAINER) adhocteam/noclist
